@@ -74,3 +74,16 @@ python currency_converter.py 100 USD EUR
 The CLI will provide the converted amount based on real-time exchange rates fetched from the forex-python library.
 
 Please note that real-time exchange rates can fluctuate, so the converted amount may vary slightly depending on the time of conversion. The forex-python library updates its rates regularly to provide the latest information.
+
+## Weather Forecast
+This CLI will allow users to get the current weather and the 5-day weather forecast for a specific location using the OpenWeatherMap API.
+For this example, you'll need to sign up for a free API key at OpenWeatherMap: [https://home.openweathermap.org/users/sign_up](https://home.openweathermap.org/users/sign_up)
+
+You can use the following command with the CLI:
+To get the current weather and 5-day weather forecast for a specific city:
+```
+python weather_forecast.py <api_key> <city>
+```
+Replace `<api_key>` with your OpenWeatherMap API key and `<city>` with the city for which you want to get the weather forecast.
+
+This Weather Forecast CLI allows users to quickly get the current weather and the 5-day weather forecast for a specific location. It makes use of the OpenWeatherMap API to fetch weather data and provides users with essential weather information in a convenient format.
