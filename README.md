@@ -6,6 +6,7 @@ Hello.
 # Installation
 ```
 pip install fire
+pip install forex-python # for currency converter tool
 ```
 
 # Tools
@@ -57,3 +58,19 @@ You can use the following commands with the CLI:
    python task_manager.py delete --index <task_index>
    ```
 This task management CLI allows users to manage their tasks easily from the command line. It provides a simple yet effective interface for organizing and tracking tasks without the need for a full-fledged task management application.
+
+## Currency Converter
+This CLI will allow users to convert between different currencies using real-time exchange rates.
+
+You can use the following command with the CLI:
+To convert an amount from one currency to another (replace `<amount>`, `<from_currency>`, and `<to_currency>` with the desired values):
+```
+python currency_converter.py <amount> <from_currency> <to_currency>
+```
+For example, to convert 100 USD to EUR, use:
+```
+python currency_converter.py 100 USD EUR
+```
+The CLI will provide the converted amount based on real-time exchange rates fetched from the forex-python library.
+
+Please note that real-time exchange rates can fluctuate, so the converted amount may vary slightly depending on the time of conversion. The forex-python library updates its rates regularly to provide the latest information.
