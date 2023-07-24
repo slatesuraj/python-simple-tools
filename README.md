@@ -1,6 +1,7 @@
 # Python Simple Cli Tools
 
 Hello.
+Python simple CLI tools are command-line applications designed to perform specific tasks in a straightforward manner. They offer basic functionality with user-friendly input options, making them convenient for quick and easy execution of tasks such as conversion, data retrieval, or organization.
 
 
 # Installation
