@@ -87,3 +87,16 @@ python weather_forecast.py <api_key> <city>
 Replace `<api_key>` with your OpenWeatherMap API key and `<city>` with the city for which you want to get the weather forecast.
 
 This Weather Forecast CLI allows users to quickly get the current weather and the 5-day weather forecast for a specific location. It makes use of the OpenWeatherMap API to fetch weather data and provides users with essential weather information in a convenient format.
+
+## URL Shortner
+This CLI will allow users to shorten long URLs using the TinyURL API.
+For this example, you'll need to sign up for a free API key at TinyURL: [https://tinyurl.com/tools/apideveloper](https://tinyurl.com/tools/apideveloper)
+
+You can use the following command with the CLI:
+To shorten a long URL:
+```
+python url_shortener.py <api_key> <long_url>
+```
+Replace `<api_key>` with your TinyURL API key and `<long_url>` with the long URL you want to shorten.
+
+This URL Shortener CLI allows users to quickly generate short URLs for long web addresses. It utilizes the TinyURL API to shorten the URLs and provides users with the shortened URL that can be easily shared or used in other applications.
